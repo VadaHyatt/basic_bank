@@ -1,5 +1,5 @@
-#!/bin/bash
-# First check that Leo is installed.
+##/bin/bash
+##First check that Leo is installed.
 if ! command -v leo &> /dev/null
 then
     echo "leo is not installed."
@@ -208,3 +208,4 @@ echo "
 "
 leo run withdraw aleo1t0uer3jgtsgmx5tq6x6f9ecu8tr57rzzfnc2dgmcqldceal0ls9qf6st7a 50u64 1234u64 15u64 || exit
 
+ 
